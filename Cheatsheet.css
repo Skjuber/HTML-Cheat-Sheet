@@ -1,0 +1,208 @@
+body {
+  background-color: #ff9900;
+}
+
+
+
+.container-1{
+	display: flex;
+	
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.header{
+  margin: auto;
+  margin-bottom: 50px;
+  padding: -20px 1px 1px 1px;
+  line-height: 1;
+  border-radius: 5px; 
+  width: 540px;
+  font-family: 'Lobster', cursive;
+  font-size: 124px;
+  text-align: center;
+}
+
+.subheader{
+	width: 225px;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	font-family:'lobster', cursive;
+	text-align:center;
+}
+/*
+.colorbtm1{
+	width:225px;
+	border-bottom: 
+		3px solid rgb(251,46,1);
+	align-items: right;
+}
+.colorbtm2{
+	position: relative;
+	left: 5px;
+	width:225px;
+	border-bottom: 
+		3px solid rgb(111,203,159);
+	align-items: right;
+}
+.colorbtm3{
+	position: relative;
+	left: 10px;
+	width:225px;
+	border-bottom: 
+		3px solid rgb(255,226,138);
+	align-items: right;
+}
+.colorbtm4{
+	position: relative;
+	left: 15px;
+	width:225px;
+	border-bottom: 
+		3px solid rgb(255,254,179);
+	align-items: right;
+}
+
+*/
+.shadowHead {
+  margin: auto;
+  border: 6px solid black;
+  
+  border-radius: 10%;
+  padding: 1px, 30px, -4px, 20px;
+  text-shadow: 
+   
+    5px 9px rgb(251,113,1),
+    7px 12px rgb(255,183,138);
+}
+
+
+.img{
+  width: 100%;
+  height: 183px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 15px 50px;
+  box-shadow: 
+  5px 5px 5px rgb(251, 113, 1),
+  15px 15px 15px rgb(41, 43, 42),
+  30px 30px 30px rgb(255, 183, 138);
+
+}
+
+.box{
+	height: 183px;
+	margin: 50px;
+  	width: 300px;
+  	border-radius: 15px 50px;
+  	perspective: 800px;
+}
+
+.card {
+	display: flex;
+	position: relative;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d;
+	transform-origin: right center;
+	transition: transform 1s;
+}
+
+.card:hover {
+	transform: translateX(-100%) rotateY(180deg);
+}
+
+.card > div {
+	backface-visibility: hidden;
+}
+
+.flashcard1{
+	position: initial;
+	background-image: url('https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg');
+	background-size:cover;
+	background-position:50% 30%;
+}
+
+/* .cat__bio  */
+.flashcard_text {
+	position: absolute;
+	background-color: rgb(251,113,1);
+	
+	
+	border: 1px solid black;
+	border-radius: 15px 50px;
+	box-shadow: 
+	5px 5px 5px rgb(251, 113, 1),
+	15px 15px 15px rgb(41, 43, 42),
+	30px 30px 30px rgb(255, 183, 138);
+	transform: rotateY(180deg);
+	padding: 10px;
+}
+
+.bio_font {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 900;
+}
+
+.flashcard2{
+	background-image: url("https://image.slidesharecdn.com/lesson1-copy-200708032120/85/html-fundamentals-1-320.jpg?cb=1662478000");
+	background-size:cover;
+	background-position:100% 50%;
+	
+}
+.flashcard3{
+	background-image: url("https://scaler.com/topics/images/semantic-tags-in-html_thumbnail.webp");
+	background-size:cover;
+	background-position:80% 100%;
+}
+.flashcard4{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlC9vGsptbjO1Xytq_VB3MSFPTCDEBQPJE_w&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlC9vGsptbjO1Xytq_VB3MSFPTCDEBQPJE_w&usqp=CAU");
+	background-size:cover;
+	background-position:50% 50%;
+}
+.flashcard5{
+	background-image: url("https://cdn.educba.com/academy/wp-content/uploads/2019/10/Create-Tables-in-HTML.png");
+	background-size:cover;
+	background-position:50% 0%;
+}
+.flashcard6{
+	background-image: url("https://i.ytimg.com/vi/A7G-kAyfxqY/maxresdefault.jpg");
+	background-size:cover;
+	background-position:50% 50%;
+}
+
+.footer{
+  margin: auto;
+  border-radius: 5px; 
+  width: 100%;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footlabel {
+	flex-basis: 100%;
+}
+
+.footcontainer {
+   width: 250px;
+   margin: auto;
+   border:3px solid black;
+   border-radius: 25px; 
+}
+
+.footext {
+	margin: 0px 0px 3px 0px;
+	   text-shadow: 
+    1px 3px rgb(251,46,1),
+    3px 6px rgb(111,203,159),
+    5px 9px rgb(255,226,138),
+    7px 12px rgb(255,254,179);
+}
