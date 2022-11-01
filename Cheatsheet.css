@@ -86,8 +86,8 @@ body {
   border: 1px solid black;
   border-radius: 15px 50px;
   box-shadow: 
-  5px 5px 5px  orangered,
-  15px 15px 15px   orange,
+  5px 5px 5px    orangered,
+  15px 15px 15px    red,
   30px 30px 30px  brown;
 
 }
@@ -135,9 +135,9 @@ body {
 	border: 1px solid black;
 	border-radius: 15px 50px;
 	box-shadow: 
-	5px 5px 5px rgb(251, 113, 1),
-	15px 15px 15px rgb(41, 43, 42),
-	30px 30px 30px rgb(255, 183, 138);
+	5px 5px 5px    orangered,
+	15px 15px 15px    rgba(255, 0, 0, 0.91),
+	30px 30px 30px  brown;
 	transform: rotateY(180deg);
 	padding: 10px;
 }
